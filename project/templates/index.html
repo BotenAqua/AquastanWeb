@@ -1,5 +1,11 @@
 {% extends "base.html" %}
 
+{% block head %}
+{{ super() }}
+{% endblock %}
+{% block title %}Strona glowna{% endblock %}
+{% block description %}Test{% endblock %}
+
 {% block content %}
 <h1> Hej, {{ data }}!</h1>
 {% endblock %}

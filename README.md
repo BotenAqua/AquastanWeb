@@ -23,7 +23,7 @@ This project is a simple API website (to be) hosted on Google App Engine.
 
 ## Status
 
-The project is currently **initiated**. More info soon.
+The project is currently **in development**. More info soon.
 
 ## Inspiration 
 
@@ -35,3 +35,4 @@ The list of knowledge sources and inspirations:
 - [Flask Web Development, 2nd Edition by Miguel Grinberg](https://www.oreilly.com/library/view/flask-web-development/9781491991725/)
 - [Get started with Flask 2.0 By Serdar Yegulalp](https://www.infoworld.com/article/3619522/get-started-with-flask-20.html)
 - [Flask Documentation](https://flask.palletsprojects.com/en/2.0.x/)
+- [HTML5 Template: A Basic Boilerplate for Any Project by Louis Lazaris](https://www.sitepoint.com/a-basic-html5-template/)
