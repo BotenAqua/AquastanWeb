@@ -3,5 +3,5 @@ from project import app
 
 @app.get('/')
 def home():
-        return render_template('index.html', title='Wowowowo', data='test')
-
+	page_content = {'title': 'Wowowow', 'data': 'test'}
+	return render_template('index.html', **page_content)
