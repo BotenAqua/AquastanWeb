@@ -17,13 +17,27 @@ This project is a simple API website (to be) hosted on Google App Engine.
 
 ## Technologies
 
+Flask==2.0.1
+Flask-Migrate==3.0.1
+Flask-SQLAlchemy==2.5.1
+SQLAlchemy==1.4.20
+
 ## Setup
+
+Simple
+
+```bash
+flask run
+```
+in the **Flask2Web** will start the project.
 
 ## Features
 
+No features yet, sorry...
+
 ## Status
 
-The project is currently **in development**. More info soon.
+The project is currently **in development**. 
 
 ## Inspiration 
 
@@ -36,3 +50,4 @@ The list of knowledge sources and inspirations:
 - [Get started with Flask 2.0 By Serdar Yegulalp](https://www.infoworld.com/article/3619522/get-started-with-flask-20.html)
 - [Flask Documentation](https://flask.palletsprojects.com/en/2.0.x/)
 - [HTML5 Template: A Basic Boilerplate for Any Project by Louis Lazaris](https://www.sitepoint.com/a-basic-html5-template/)
+- [Use a Flask Blueprint to Architect Your Applications by Miguel Garcia](https://realpython.com/flask-blueprint/)
