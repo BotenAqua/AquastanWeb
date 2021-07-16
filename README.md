@@ -18,9 +18,6 @@ This project is a simple API website (to be) hosted on Google App Engine.
 ## Technologies
 
 Flask==2.0.1
-Flask-Migrate==3.0.1
-Flask-SQLAlchemy==2.5.1
-SQLAlchemy==1.4.20
 
 ## Setup
 
@@ -29,7 +26,7 @@ Simple
 ```bash
 flask run
 ```
-in the **Flask2Web** will start the project.
+in the **Flask2Web** directory will start the project.
 
 ## Features
 
