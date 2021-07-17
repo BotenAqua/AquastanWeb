@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block head %}
+{{ super() }}
+<!-- <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> -->
+{% endblock %}
+{% block title %}{{ title }}{% endblock %}
+{% block description %}Test{% endblock %}
+
+{% block content %}
+<h1> Hej, {{ data }}!</h1>
+<h3>Jestesmy wewnatrz landing_pahe.html ;-)</h3>
+{% endblock %}
