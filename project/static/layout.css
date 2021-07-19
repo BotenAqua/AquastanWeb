@@ -1,17 +1,45 @@
+/* css tylko na ekrany 4k do celow testowych; responsywnosc soon */
+
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-/* navbar */
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* problemy na mobile?; do sprawdzenia */
+}
+
+/* pasek nawigacji */
 
 nav {
-	background-color: yellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: yellow;
+  padding: 0 250px;
+  height: 50px;
 }
 
+nav ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: green;
+  width: 1000px;
+}
 
-/* footer */
+nav a{
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
 
-footer {
-	background-color: red;
+/* dolny pasek zwany footer */
+
+footer{
+  margin-top: auto;
+  background-color: orange;
 }

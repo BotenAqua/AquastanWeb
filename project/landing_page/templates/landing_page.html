@@ -5,11 +5,12 @@
 {% endblock %}
 {% block title %}{{ title }}{% endblock %}
 {% block description %}Test{% endblock %}
-{% block css %}<link rel="stylesheet" href="{{ url_for('static', filename='landing_style.css') }}">{% endblock %}
+{% block css %}<link rel="stylesheet" href="{{ url_for('static', filename='landing_page/landing_page.css') }}">{% endblock %}
 
 
 
 {% block content %}
 <h1> Hej, {{ data }}!</h1>
 <h3>Jestesmy wewnatrz landing_pahe.html ;-)</h3>
+<div class="test">WTF</div>
 {% endblock %}
